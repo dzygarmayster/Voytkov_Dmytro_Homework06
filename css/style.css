@@ -1,0 +1,843 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 912px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/*========================HEADER SECTION=====================*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head-top {
+    display: flex;
+    margin: 0 0 10px 6px;
+}
+
+.phones-box {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 16px;
+    color: #5e696d;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: .038em;
+}
+
+.phone-img {
+    margin-right: 3px;
+}
+
+.login-box {
+    display: flex;
+    align-items: center;
+    width: 488px;
+    height: 26px;
+    padding-left: 7px;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #1f6787 0%, #0c3357 100%);
+    box-shadow: 2px 3px 3px 0 rgba(180, 180, 180, 1);
+}
+
+.login {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-top: 4px;
+
+}
+
+.auth {
+    width: 110px;
+    height: 16px;
+    margin: 0 4px;
+    padding-left: 3px;
+    border: 0;
+    border-radius: 1px;
+    outline: none;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: .67em;
+    box-shadow: 0 0 2px 0 rgba(208, 211, 212, 1);
+}
+
+.enter {
+    width: 30px;
+    margin-left: 0;
+    background: none;
+    color: #fff;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.link-register {
+    align-self: center;
+    margin: 2px 0 0 1px;
+    padding-left: 4px;
+    border-left: 1px solid #fff;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: .66em;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+.link-passforgotten {
+    margin: 2px 0 0 21px;
+    border-bottom: 1px solid #7c8794;
+    color: #bfbfbf;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: .75em;
+    line-height: 13px;
+    text-decoration: none;
+}
+
+.nav-box {
+    display: flex;
+    align-items: flex-start;
+    width: 67px;
+    height: 17px;
+    margin: 1px 0 0 17px;
+    padding: 0 0 2px 8px;
+    border: 1px solid #c1c8cb;
+    border-radius: 14px;
+    box-shadow: 1px 1px 2px 0 rgba(191, 198, 201, 1);
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56px;
+}
+
+.header-img {
+    margin: 0 auto;
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    margin: 6px 0;
+    padding-left: 125px;
+    border: 1px solid #2c345a;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, rgb(77, 86, 99) 0%, rgb(38, 42, 45) 22%, rgb(4, 4, 5) 88%, rgb(1, 1, 1) 97%, rgb(10, 16, 48) 100%);
+    box-shadow: 2px 3px 6px 0 rgba(80, 82, 94, 1);
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    list-style: none;
+}
+
+.menu-link {
+    display: block;
+    border-radius: 15px;
+    color: #b1bcc0;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: .88em;
+    letter-spacing: -.02em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link1 {
+    padding: 1px 17px 0 21px;
+}
+
+.link2 {
+    padding: 1px 18px 0;
+}
+
+.link3 {
+    padding: 1px 11px 0;
+}
+
+.link4 {
+    padding: 1px 19px 0;
+}
+
+.link5 {
+    padding: 1px 7px 0;
+}
+
+.menu-link:hover {
+    background: linear-gradient(to bottom, #1f6787 0%, #0c3357 100%);
+    color: #fff;
+}
+
+.basket-box {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    padding-left: 56px;
+    font-family: 'Arial', sans-serif;
+}
+
+.goods,
+.goods-price-text {
+    color: #868e92;
+    font-size: .71em;
+    letter-spacing: .036em;
+}
+
+.goods {
+    padding-left: 6px;
+}
+
+.goods-price-text {
+    padding-left: 14px;
+}
+
+.goods-amount,
+.goods-price {
+    color: #0d5a8f;
+    font-size: .75em;
+    letter-spacing: .04em;
+}
+
+.goods-amount {
+    padding-left: 2px;
+}
+
+.goods-price {
+    padding-left: 9px;
+}
+
+/*===============================MAIN SECTION=================================*/
+
+.search-block {
+    display: flex;
+    margin: 6px 0 10px 4px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/*///////////////////////////////////////////-------FIND AVTO BOX START----///*/
+
+.find-avto-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 414px;
+    height: 132px;
+    border: 1px solid #b6b6b7;
+    border-radius: 18px;
+    box-shadow: 3px 6px 10px -4px rgba(80, 82, 94, 1);
+}
+
+/*<-----------------------------------------------Find avto / HEADER START--==*/
+.find-avto-box-head {
+    display: flex;
+    color: #154467;
+}
+
+.find-avto-head1 {
+    padding: 2px 0 0 20px;
+    font-size: .65em;
+    font-weight: bold;
+}
+
+.find-avto-head2 {
+    padding: 1px 0 0 65px;
+    font-size: .72em;
+    font-weight: bold;
+    letter-spacing: .04em;
+    line-height: 1em;
+}
+
+.find-avto-head3 {
+    padding-left: 74px;
+    font-size: .65em;
+    font-weight: bold;
+} /*<-----------------------------------------------Find avto / HEADER END--==*/
+/*<-------------------------------------------------Find avto / FORM START--==*/
+.find-avto-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+/*<---------------------------------------Find avto / FORM / TEXTBOX START--==*/
+.find-avto-textbox {
+    display: flex;
+    flex-direction: column;
+    width: 76px;
+    padding-top: 6px;
+    font-family: 'Arial', sans-serif;
+    font-size: .65em;
+    font-weight: bold;
+}
+
+.find-avto-textbox p {
+    margin-bottom: .327rem;
+    line-height: .59rem;
+}
+
+.grey-text {
+    color: #77858b;
+    font-size: .559rem;
+}/*<----------------------------------------Find avto / FORM / TEXTBOX END--==*/
+/*<-------------------------------------Find avto / FORM / SELECTBOX START--==*/
+.find-avto-selectwrap {
+    display: flex;
+    padding: 4px 14px 0 13px;
+}
+
+.avto-selectwrap2 {
+    padding-top: 2px;
+}
+
+.find-avto-selectbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.base-select {
+    width: 102px;
+    height: 17px;
+    margin-bottom: 5px;
+    border: 2px solid #949494;
+    border-right: 0;
+    border-bottom: 0;
+    background: url('../img/select-arrow.png') no-repeat right center;
+}
+
+.avto-date {
+    width: 58px;
+}
+
+.find-avto-submit {
+    margin: 2px 20px 0 0;
+    border: 0;
+    border-bottom: 2px solid #a6b1bc;
+    background: none;
+    color: #154467;
+    font-size: .71em;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .025rem;
+}/*<--------------------------------------Find avto / FORM / SELECTBOX END--==*/
+/*////////////////////////////////////////////--------FIND AVTO BOX END----///*/
+
+
+/*////////////////////////////////////////////-------FIND TIRES BOX START--///*/
+.find-tires-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 192px;
+    height: 132px;
+    margin: 0 0 0 13px;
+    border: 1px solid #b6b6b7;
+    border-radius: 18px;
+    box-shadow: 3px 6px 10px -4px rgba(80, 82, 94, 1);
+}
+/*-----------------------------------------------Find TIRES / HEADER START--==*/
+.find-tires-box-head {
+    display: flex;
+    color: #154467;
+}
+
+.find-tires-head {
+    padding: 2px 0 0 9px;
+    font-size: .72em;
+    font-weight: bold;
+    letter-spacing: .04em;
+    line-height: 1em;
+}/*------------------------------------------------Find TIRES / HEADER END--==*/
+/*-------------------------------------------------Find TIRES / FORM START--==*/
+.find-tires-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+/*---------------------------------------Find TIRES / FORM / TEXTBOX START--==*/
+.find-tires-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 44px;
+    height: 50px;
+    padding: 12px 2px 0 0;
+    font-family: 'Arial', sans-serif;
+    font-size: .65rem;
+    font-weight: bold;
+}
+
+.find-tires-textbox p:nth-child(2) {
+    padding: 3px 0 0 32px;
+    font-size: .667rem;
+}/*----------------------------------------Find TIRES / FORM / TEXTBOX END--==*/
+/*-------------------------------------Find TIRES / FORM / SELECTBOX START--==*/
+.find-tires-selectwrap {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3px 0 0;
+}
+
+.find-tires-selectbox {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 0;
+}
+
+.tires-size-from {
+    width: 51px;
+    padding-right: 5px;
+    font-size: .7rem;
+    text-align: left;
+}
+
+.tires-size-to {
+    width: 51px;
+    font-size: .7rem;
+    box-shadow: inset 1px 1px 3px 0 rgba(172, 172, 172, 1);
+}
+
+.tires-r {
+    width: 45px;
+    margin-top: 3px;
+    font-size: .7rem;
+    box-shadow: inset 1px 1px 3px 0 rgba(172, 172, 172, 1);
+}
+
+.tires-checkbox {
+    display: flex;
+    align-items: center;
+    height: 14px;
+}
+
+.find-tires-checkbox-text {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: .72rem;
+}
+
+.find-tires-submit {
+    margin: 0 18px 0 0;
+    border: 0;
+    border-bottom: 2px solid #a6b1bc;
+    background: none;
+    color: #154467;
+    font-size: .71em;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .025rem;
+}
+/*---------------------------------------Find TIRES / FORM / SELECTBOX END--==*/
+/*---------------------------------------------------Find TIRES / FORM END--==*/
+/*///////////////////////////////////////////--------FIND TIRES BOX END----///*/
+
+/*///////////////////////////////////////////--------FIND DISKS BOX START--///*/
+
+.find-disks-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 266px;
+    height: 134px;
+    margin: -2px 0 0 9px;
+    border: 1px solid #b6b6b7;
+    border-radius: 18px;
+    box-shadow: 3px 6px 10px -4px rgba(80, 82, 94, 1);
+}
+
+.find-disks-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 4px;
+    padding-right: 10px;
+}
+/*---------------------------------------Find DISKS / FORM / TEXTBOX START--==*/
+.find-disks-left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 175px;
+    height: 112px;
+}
+
+.find-disks-left-head {
+    padding: 0 0 0 9px;
+    color: #154467;
+    font-size: .72em;
+    font-weight: bold;
+    letter-spacing: .09em;
+    line-height: 1em;
+}
+
+.find-disks-left-textbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 91px;
+    padding: 10px 0 1px 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: .65em;
+    font-weight: bold;
+    letter-spacing: .06rem;
+}
+
+.find-disks-left-textbox p {
+    line-height: .9em;
+}
+
+.find-disks-left-textbox p:first-child {
+    padding-bottom: 6px;
+}
+
+.find-disks-left-textbox p:nth-child(2) {
+    padding-bottom: 2px;
+}/*----------------------------------------Find TIRES / FORM / TEXTBOX END--==*/
+
+.find-disks-left-selectbox {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0 0;
+}
+
+.disks-select {
+    width: 57px;
+    margin-bottom: 15px;
+    font-size: .7rem;
+}
+
+.disks-select:nth-child(2) {
+    width: 50px;
+}
+
+.find-disks-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 70px;
+    height: 102px;
+    padding: 3px 0 1px 10px;
+    border-left: 1px solid #bdc6ca;
+    font-family: 'Arial', sans-serif;
+    font-size: .65em;
+    font-weight: bold;
+    letter-spacing: .06rem;
+    line-height: .7em;
+}
+
+.grey-text-small {
+    color: #77858b;
+    font-size: .46rem;
+}
+
+.disks-select-right {
+    width: 57px;
+    margin: 5px 0 8px;
+    font-size: .7rem;
+}
+
+.find-disks-submit {
+    align-self: center;
+    margin: -21px 6px 0 0;
+    border: 0;
+    border-bottom: 2px solid #a6b1bc;
+    background: none;
+    color: #154467;
+    font-size: .71em;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .025rem;
+}
+/*///////////////////////////////////////////--------FIND DISKS BOX END----///*/
+
+/*///////////////////////////////////////////--------MAIN SECTION START----///*/
+
+main {
+    display: flex;
+    flex-shrink: 0;
+    padding: 6px 0 0;
+}
+
+.sidebar {
+    width: 191px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+.sidebar-head {
+    display: flex;
+    align-items: center;
+    width: 179px;
+    height: 24px;
+    margin: 3px 0 0;
+    border: 1px solid #8b979c;
+    border-radius: 11px;
+    color: #114165;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: .72rem;
+    letter-spacing: .05rem;
+    box-shadow: 2px 2px 6px -2px rgba(80, 82, 94, 1);
+}
+
+.sidebar-head img {
+    margin: 0 4px 0 1px;
+}
+
+.sidebar-list-left {
+    padding: 14px 0 0 1px;
+
+}
+
+.left-list-item {
+    color: #114165;
+    list-style: none;
+}
+
+.list-item-head {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 26px;
+    border: 1px solid #79878d;
+    border-radius: 13px;
+    font-size: .9rem;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    margin: 0 3px 0 4px;
+    border: 6px solid #114165;
+    border-radius: 14px;
+}
+
+.left-list-subitem {
+    margin: 1px 0 -1px 35px;
+    padding-left: 11px;
+    background-image: url('../img/marker.png');
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    color: #465961;
+    font-size: .8rem;
+    line-height: 1.62rem;
+    list-style: none;
+}
+
+.left-list-subitem:hover {
+    background-image: url('../img/marker-bold.png');
+    font-family: 'Arial', sans-serif;
+    font-size: .87rem;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sidebar-list-right {
+    padding: 14px 0 0 24px;
+}
+
+.list-item-head-right {
+    width: 134px;
+}
+
+.sidebar-head-right {
+    width: 179px;
+    height: 24px;
+    margin: 1px 0 0 10px;
+    padding-bottom: 1px;
+}
+
+.sidebar-head-right img {
+    margin: 0 6px 0 2px;
+}
+
+.right-list-subitem {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 0 10px;
+    font-size: .8rem;
+    list-style: none;
+}
+
+.right-list-subitem:nth-child(4) {
+    padding-bottom: 12px;
+}
+
+.right-list-subitem label {
+    margin-left: 11px;
+}
+
+.sidebar-button {
+    width: 81px;
+    height: 26px;
+    margin: 18px 0 0 33px;
+    padding-left: 3px;
+    border: 0;
+    border-radius: 14px;
+    background: linear-gradient(to bottom, #1f6787 0%, #0d3458 100%);
+    color: #fff;
+    font-size: .69em;
+    letter-spacing: .05rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 526px;
+    height: 626px;
+    background: linear-gradient(to bottom, #e5e7e8 0%, #93a7b0 100%);
+}
+
+.product-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 138px;
+    margin: 15px 7px 12px 23px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    line-height: .9rem;
+}
+
+.product-header {
+    color: #206988;
+    font-size: .95rem;
+}
+
+.product-description {
+    padding-left: 5px;
+    font-size: .8rem;
+}
+
+.img-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 127px;
+    border: 1px solid #b0b9bc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.product-price {
+    padding: 4px 0 0 11px;
+    color: #114165;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.product-price span {
+    font-size: .8rem;
+}
+
+/*//////////////////////////////---BRANDS IMAGES----//////////////////////////*/
+
+.brands {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 30px;
+    margin: 37px 0 0 113px;
+}
+
+.brand-link-1 {
+    margin: 6px 0 0 4px;
+}
+
+.brand-link-2 {
+    margin: 0 0 0 12px;
+}
+
+.brand-link-3 {
+    margin: 7px 0 0 12px;
+}
+
+.brand-link-4 {
+    margin: 5px 0 0 16px;
+}
+
+.brand-link-5 {
+    margin: 0 0 0 12px;
+}
+
+.brand-link-6 {
+    margin: 5px 0 0 14px;
+}
+
+.brand-link-7 {
+    margin: 2px 0 0 12px;
+}
+
+.brand-link-8 {
+    margin: 0 0 0 15px;
+}
+
+/*////////////////////////-----FOOTER----/////////////////////////////////////*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 910px;
+    height: 100px;
+    margin-top: 24px;
+    background-color: #213a4d;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    width: 330px;
+    margin: 12px 0 16px 15px;
+}
+
+.footer-menu-item {
+    display: flex;
+    align-items: center;
+    height: 11px;
+    border-right: 1px solid #afb7bc;
+}
+
+.footer-menu-item-1 {
+    padding: 0 11px;
+}
+
+.footer-menu-item-2 {
+    padding: 0 11px;
+}
+
+.footer-menu-item-3 {
+    padding: 0 11px 0 14px;
+}
+
+.footer-menu-item-4 {
+    padding: 0 11px 0 15px;
+    border: 0;
+}
+
+.footer-menu a {
+    color: #afb7bc;
+    font-size: .73rem;
+    letter-spacing: .05rem;
+    line-height: 11px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #52abcb;
+}
+
+.copyright {
+    color: #7f4740;
+    font-size: .64rem;
+}
